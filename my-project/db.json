@@ -1,0 +1,180 @@
+{
+    "foods": [
+      {
+        "id": 401,
+        "name": "Italian Pizza",
+        "description": "Classic pizza with tomato sauce, mozzarella, and basil",
+        "price": 1299,
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fst3.idealista.it%2Fnews%2Farchivie%2Fstyles%2Ffullwidth_xl%2Fpublic%2F2022-10%2Fmedia%2Fimage%2Faurelien-lemasson-theobald-x00czbt4dfk-unsplash.jpg%3FVersionId%3DV5HNX7jAzvpmOwawvIKLGNATTI3v_m09%26itok%3DKeH-F7_2&tbnid=Vur4bO143m2ckM&vet=12ahUKEwj5oOrgwvuFAxWAmicCHRX8Da4QMygDegQIARB6..i&imgrefurl=https%3A%2F%2Fwww.idealista.it%2Fen%2Fnews%2Flifestyle-italy%2F2024%2F02%2F23%2F2491-most-popular-authentic-italian-pizzas&docid=Esw3xMKpKJvOOM&w=1200&h=801&q=itallian%20pizza%20photo&ved=2ahUKEwj5oOrgwvuFAxWAmicCHRX8Da4QMygDegQIARB6",
+        "category": "Pizza",
+        "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Fresh Basil"],
+        "availability": true
+        },
+    
+      
+      {
+        "id": 102,
+        "name": "Spaghetti Carbonara",
+        "description": "Pasta with egg sauce, bacon, and italian cheese",
+        "price": 14.99,
+        "image": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.cookingclassy.com%2Fwp-content%2Fuploads%2F2020%2F10%2Fspaghetti-carbonara-01.jpg&tbnid=qTM2S7Ihmp22xM&vet=12ahUKEwiGtfbMwvuFAxWyd6QEHTqaBRkQMygBegQIARBM..i&imgrefurl=https%3A%2F%2Fwww.cookingclassy.com%2Fpasta-carbonara%2F&docid=ZNAl0UyctJ-4AM&w=1200&h=1800&q=cooked%20spaghetti%20carbonara%20photo&ved=2ahUKEwiGtfbMwvuFAxWyd6QEHTqaBRkQMygBegQIARBM",
+        "category": "Pasta",
+        "ingredients": ["Spaghetti", "Eggs", "Bacon", "Cheese"],
+        "availability" :true
+        },
+     
+    
+      {
+        "id": 201,
+        "name": "Classic Cheeseburger",
+        "description": "Beef patty with cheese, lettuce, tomato, and special sauce",
+        "price": 999,
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Frhubarbandcod.com%2Fwp-content%2Fuploads%2F2022%2F06%2FThe-Classic-Cheeseburger-1.jpg&tbnid=SVVwYfLrFEnelM&vet=12ahUKEwiCodiKw_uFAxVOsycCHTvHBVQQMygAegQIARBV..i&imgrefurl=https%3A%2F%2Frhubarbandcod.com%2Fthe-classic-cheeseburger%2F&docid=C7v0fBLpsRJdPM&w=1500&h=1071&q=classic%20cheese%20burger%20photo%20&ved=2ahUKEwiCodiKw_uFAxVOsycCHTvHBVQQMygAegQIARBV",
+        "category": "Burger",
+        "ingredients": ["Beef Patty", "Cheddar Cheese", "Lettuce", "Tomato", "Special Sauce"],
+        "availability" :false
+        },
+    
+      
+      {
+        "id": 202,
+        "name": "Veggie Burger",
+        "description": "Grilled vegetable patty with avocado and sprouts",
+        "price": 8.99,
+        "image_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fpng.pngtree.com%2Fbackground%2F20230906%2Foriginal%2Fpngtree-hamburger-burger-cooked-slice-photo-picture-image_4977681.jpg&tbnid=LABc0Eao7WPaGM&vet=12ahUKEwj5m8_5uPuFAxVBuUwKHSC4C70QMygKegQIARBo..i&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffreebackground%2Fhamburger-burger-cooked-slice-photo_4977681.html&docid=_JM9zojnP-t3UM&w=1200&h=895&itg=1&q=download%20cooked%20burger%20photos&ved=2ahUKEwj5m8_5uPuFAxVBuUwKHSC4C70QMygKegQIARBo",
+        "category": "Burger",
+        "ingredients": ["Veggie Patty", "Avocado", "Sprouts"],
+        "availability": true
+      },
+      {
+        "id": 203,
+        "name": "Chicken",
+        "description": "Kuku Choma, Kuku Fry, Crispy Chicken",
+        "price": 800,
+        "image_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F172916013%2Fphoto%2Froast-chicken-isolated-on-white-background.webp%3Fb%3D1%26s%3D170667a%26w%3D0%26k%3D20%26c%3DFgrTDvqr9zWmSSW9YcX06kzD2pKXV0YWjFLWaTx4BhE%3D&tbnid=KfNwUR1uDTlI9M&vet=12ahUKEwiuxNzTtfuFAxXimycCHduKAuAQMygBegQIARBI..i&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcooked-chicken&docid=GwQR3_2V2SwvYM&w=507&h=338&q=download%20cooked%20chicken%20photos&ved=2ahUKEwiuxNzTtfuFAxXimycCHduKAuAQMygBegQIARBI",
+        "category": "Meat",
+        "ingredients": ["Kuku"],
+        "availability": true
+      },
+
+      {
+        "id": 204,
+        "name": "Beef",
+        "description": "Nyama Choma, Stew, Dry Fry",
+        "price": 600,
+        "image_url": "…...jpg",
+        "category": "Meat",
+        "ingredients": ["Veggie Patty", "Avocado", "Sprouts"],
+        "availability": true
+      },
+      {
+        "id": 205,
+        "name": "Pork",
+        "description": "Pork Ribs, Pork Chops, Brisket,",
+        "price": 8.99,
+        "image": "…...jpg",
+        "category": "Meat",
+        "ingredients": ["Pork"],
+        "availability": true
+      },
+
+      {
+        "id": 206,
+        "name": "Potatoes",
+        "description": "Fries, Saute Potatoes, Roast Potatoes, Cheese Potatoes",
+        "price": 250,
+        "image": "…...jpg",
+        "category": "Potatoes",
+        "ingredients": ["Potatoes"],
+        "availability": true
+      },
+
+      {
+        "id": 207,
+        "name": "Drinks",
+        "description": "Juice,",
+        "price": 150 ,
+        "image": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.vfi.co.ke%2Fwp-content%2Fuploads%2F2020%2F02%2FFresh-Juice-1-1024x988.jpg&tbnid=_XiAW5VIcVSYPM&vet=12ahUKEwib4rLpwfuFAxXiTaQEHdcQAiMQMygHegUIARCBAQ..i&imgrefurl=https%3A%2F%2Fwww.vfi.co.ke%2Ffresh-fruit-juice%2F&docid=TD9Pk5W0m9kMwM&w=1024&h=988&q=juice%20photo&ved=2ahUKEwib4rLpwfuFAxXiTaQEHdcQAiMQMygHegUIARCBAQ",
+        "category": "Drinks",
+        "availability": true
+      },
+
+      {
+        "id": 208,
+        "name": "Drinks",
+        "description": "Coffee,",
+        "price": 200,
+        "image": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F025%2F282%2F026%2Fsmall_2x%2Fstock-of-mix-a-cup-coffee-latte-more-motive-top-view-foodgraphy-generative-ai-photo.jpg&tbnid=-BU41LbwQyk0GM&vet=12ahUKEwjnrNDav_uFAxX9TKQEHVbYAAgQMygBegQIARBx..i&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fcoffee&docid=pP8zlusA736SFM&w=600&h=400&q=coffee%20photos&ved=2ahUKEwjnrNDav_uFAxX9TKQEHVbYAAgQMygBegQIARBx",
+        "category": "Drinks",
+        "availability": true
+      },
+
+      {
+        "id": 209,
+        "name": "Drinks",
+        "description": "Soda,",
+        "price": 100,
+        "image_url": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpapers.com%2Fimages%2Fhd%2Fassorted-soft-drinks-collection-0bssdibxr7paa77c.jpg&tbnid=OR835Eol3d2YAM&vet=12ahUKEwjszIOivPuFAxXWUaQEHf-JAxgQMyghegUIARCaAQ..i&imgrefurl=https%3A%2F%2Fwallpapers.com%2Fpng%2Fassorted-soft-drinks-collection-0bssdibxr7paa77c.html&docid=YlNR9tiBArTokM&w=1022&h=933&q=download%20beverage%20photo&ved=2ahUKEwjszIOivPuFAxXWUaQEHf-JAxgQMyghegUIARCaAQ",
+        "category": "Drinks",
+        "availability": true
+      },
+
+      {
+        "id": 210,
+        "name": "Drinks",
+        "description": "MilkShake,",
+        "price": 400,
+        "image_url": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fthebigmansworld.com%2Fwp-content%2Fuploads%2F2021%2F06%2Falmond-milk-milkshake4.jpeg&tbnid=rM_n9YXohDVL5M&vet=10CH0QMyiSAWoXChMIiObQ1777hQMVAAAAAB0AAAAAEAI..i&imgrefurl=https%3A%2F%2Fthebigmansworld.com%2Falmond-milk-milkshake%2F&docid=LrkIZPtKSOGUdM&w=800&h=800&q=milkshake%20photos%20&ved=0CH0QMyiSAWoXChMIiObQ1777hQMVAAAAAB0AAAAAEAI",
+        "category": "Drinks",
+        "availability": true
+      },
+
+      {
+        "id": 211,
+        "name": "Drinks",
+        "description": "Water,",
+        "price": 100,
+        "image": " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seriouseats.com%2Fhow-bottled-water-became-americas-most-popular-beverage&psig=AOvVaw1SoHZ07xX1N-4vSGvVTo5Y&ust=1715170144435000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIj3oO3A-4UDFQAAAAAdAAAAABAD",
+        "category": "Drinks",
+        "availability": true
+      }
+
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "sandie",
+        "email": "sandie@.com",
+        "password": ".......",
+        "address": "…..",
+        "phone": "…..",
+        "paymentMethods": ["Credit Card", "PayPal"],
+        "myOrders": []
+      },
+      {
+        "id": 2,
+        "name": "scarlet",
+        "email": "…….",
+        "password": "……",
+        "address": "……",
+        "phone": "…….",
+        "paymentMethods": ["Credit Card"],
+        "myOrders": [
+          {
+            "orderId": 1,
+            "items": [
+              {
+                "foodId": 101,
+                "foodName": "Margherita Pizza",
+                "quantity": 2,
+                "price": 25.98
+              }
+            ],
+            "total": 25,
+            "status": "Delivered",
+            "date": "2024-05-07T10:30:00Z"
+          }
+        ]
+      }
+    ]
+  }
