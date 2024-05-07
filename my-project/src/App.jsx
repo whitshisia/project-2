@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Menu from "./pages/Menu";
 import More from "./pages/More";
 import OnlineOrders from "./pages/OnlineOrders";
+// import MyComponent from "./components/MyComponent";
 
 function App() {
 
@@ -17,14 +18,15 @@ function App() {
      <BrowserRouter >
     <Routes>
       <Route path='/' element={<Layout />}> 
-      <Route path='/home' element={<Home />} />
+      <Route path='/' element={<Home />} />
       <Route path='/contacts' element={<Contacts />} />
-      <Route path='/Myoders' element={<MyOrders />} />
+      <Route path='Myorders' element={<MyOrders />} />
       <Route path="*" element={<NoPage />} /></Route>
       <Route path='/about' element={<About />} />
       <Route path='/menu' element={<Menu />} />
       <Route path='/more' element={<More />} />
       <Route path='/onlineorders' element={<OnlineOrders />} />
+      {/* <Route path='/mycomponent' element={<MyComponent />} /> */}
     </Routes>
     
     </BrowserRouter>
