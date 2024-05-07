@@ -60,15 +60,59 @@
       {
         "id": 204,
         "name": "Beef",
-        "description": "Nyama Choma, Stew, Dry Fry",
-        "price": 600,
-        "image_url": "…...jpg",
+        "description": "Nyama Choma",
+        "price": 1000,
+        "image_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fshopafricausa.com%2Fcdn%2Fshop%2Farticles%2Fmaxresdefault_1280x.jpg%3Fv%3D1607305736&tbnid=0SYjQ9llP_UV9M&vet=12ahUKEwjhsOyq1vuFAxV3UKQEHdYmChIQMygKegQIARBa..i&imgrefurl=https%3A%2F%2Fshopafricausa.com%2Fen-gb%2Fblogs%2Fafrican-food-recipe%2Fnyama-choma-recipe-kenyan-grilled-meat&docid=Co2bF4H8DFcdMM&w=1280&h=720&q=cooked%20nyamachoma%20photos&ved=2ahUKEwjhsOyq1vuFAxV3UKQEHdYmChIQMygKegQIARBa ",
         "category": "Meat",
-        "ingredients": ["Veggie Patty", "Avocado", "Sprouts"],
         "availability": true
       },
       {
         "id": 205,
+        "name": "Beef",
+        "description": " Stew,",
+        "price": 600,
+        "image_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.tamingtwins.com%2Fwp-content%2Fuploads%2F2021%2F11%2Fslow-cooker-beef-stew-1.jpg&tbnid=lCCEOAS61w7CrM&vet=12ahUKEwin4sTx1fuFAxXapycCHZtrCWgQMygIegQIARBn..i&imgrefurl=https%3A%2F%2Fwww.tamingtwins.com%2Fslow-cooker-beef-stew-recipe%2F&docid=uhYstth4ZVcqjM&w=1200&h=1600&q=cooked%20beef%20stew%20photos&ved=2ahUKEwin4sTx1fuFAxXapycCHZtrCWgQMygIegQIARBn",
+        "category": "Meat",
+        "ingredients": ["Onions", "Tomatoes", "Dhania"],
+        "availability": true
+      },
+
+      {
+        "id": 206,
+        "name": "Beef",
+        "description": "Dry Fry",
+        "price": 600,
+        "image_url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fguccilounge.net%2Fwp%2Fwp-content%2Fuploads%2F2021%2F04%2Fbeef.jpeg&tbnid=7VnNIDErypTaxM&vet=12ahUKEwiBmtCN1_uFAxUvVqQEHXEyAoUQMygbegUIARCJAQ..i&imgrefurl=https%3A%2F%2Fguccilounge.net%2Fwp%2Fproduct%2Fbeef-dry-frywet-fry-or-stew-portion-1-kg%2F&docid=wWrSVs3iw34coM&w=1024&h=685&q=cooked%20dry%20fry%20photos&hl=en&ved=2ahUKEwiBmtCN1_uFAxUvVqQEHXEyAoUQMygbegUIARCJAQ",
+        "category": "Meat",
+        "ingredients": ["Onion"],
+        "availability": true
+      },
+
+      {
+        "id": 207,
+        "name": "Pork",
+        "description": "Honey Glazed Pork Ribs",
+        "price": 1200,
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.onceuponachef.com%2Fimages%2F2022%2F06%2Fbaby-back-ribs-18-1200x1397.jpg&tbnid=0J3sEhd5v6OVVM&vet=12ahUKEwix7aPq1_uFAxXcUKQEHRaGDw4QMygDegQIARBY..i&imgrefurl=https%3A%2F%2Fwww.onceuponachef.com%2Frecipes%2Fbaby-back-ribs-smoker-or-oven.html&docid=Xlj7VndyHnLNDM&w=1200&h=1397&q=cooked%20pork%20ribs%20photos&hl=en&ved=2ahUKEwix7aPq1_uFAxXcUKQEHRaGDw4QMygDegQIARBY",
+        "category": "Meat",
+        "ingredients": ["Pork"],
+        "availability": true
+      },
+      {
+        "id": 208,
+        "name": "Pork",
+        "description": " Pork Chops",
+        "price": 1200,
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fthebigmansworld.com%2Fwp-content%2Fuploads%2F2023%2F01%2Foven-baked-pork-chops-recipe.jpg&tbnid=gd2Wgqsks1cOLM&vet=12ahUKEwja_ZS92PuFAxUMTKQEHcGXAg8QMygOegQIARB3..i&imgrefurl=https%3A%2F%2Fthebigmansworld.com%2Foven-baked-pork-chops%2F&docid=7IketO06CMIWxM&w=1200&h=1200&q=cooked%20pork%20chops%20photos&hl=en&ved=2ahUKEwja_ZS92PuFAxUMTKQEHcGXAg8QMygOegQIARB3",
+        "category": "Meat",
+        "ingredients": ["Pork"],
+        "availability": true
+      },
+
+      
+
+      {
+        "id": 209,
         "name": "Pork",
         "description": "Pork Ribs, Pork Chops, Brisket,",
         "price": 8.99,
@@ -79,7 +123,7 @@
       },
 
       {
-        "id": 206,
+        "id": 210,
         "name": "Potatoes",
         "description": "Fries, Saute Potatoes, Roast Potatoes, Cheese Potatoes",
         "price": 250,
@@ -90,7 +134,7 @@
       },
 
       {
-        "id": 207,
+        "id": 211,
         "name": "Drinks",
         "description": "Juice,",
         "price": 150 ,
@@ -100,7 +144,7 @@
       },
 
       {
-        "id": 208,
+        "id": 212,
         "name": "Drinks",
         "description": "Coffee,",
         "price": 200,
@@ -110,7 +154,7 @@
       },
 
       {
-        "id": 209,
+        "id": 213,
         "name": "Drinks",
         "description": "Soda,",
         "price": 100,
@@ -120,7 +164,7 @@
       },
 
       {
-        "id": 210,
+        "id": 214,
         "name": "Drinks",
         "description": "MilkShake,",
         "price": 400,
@@ -130,12 +174,32 @@
       },
 
       {
-        "id": 211,
+        "id": 215,
         "name": "Drinks",
         "description": "Water,",
         "price": 100,
         "image": " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seriouseats.com%2Fhow-bottled-water-became-americas-most-popular-beverage&psig=AOvVaw1SoHZ07xX1N-4vSGvVTo5Y&ust=1715170144435000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIj3oO3A-4UDFQAAAAAdAAAAABAD",
         "category": "Drinks",
+        "availability": true
+      },
+      {
+        "id": 301,
+        "name": "Lasagna",
+        "description": "Layers of pasta, rich meat sauce, and creamy sauce",
+        "price": 1699,
+        "image": "https://www.google.com/imgres?q=lasagna&imgurl=https%3A%2F%2Fassets.bonappetit.com%2Fphotos%2F656f48d75b552734225041ba%2F1%3A1%2Fw_3129%2Ch_3129%2Cc_limit%2F20231120-WEB-Lasanga-6422.jpg&imgrefurl=https%3A%2F%2Fwww.bonappetit.com%2Frecipe%2Fba-best-lasagna&docid=8d9mhSOXLoCbTM&tbnid=sRRMtD4qGyTZrM&vet=12ahUKEwj4_Zuow_uFAxXSBNsEHS8LDwcQM3oECFMQAA..i&w=3129&h=3129&hcb=2&ved=2ahUKEwj4_Zuow_uFAxXSBNsEHS8LDwcQM3oECFMQAA",
+        "category": "Pasta",
+        "ingredients": ["Pasta", "Meat Sauce", "Béchamel Sauce"],
+        "availability": true
+      },
+      {
+        "id": 302,
+        "name": "Sushi Rolls",
+        "description": " sushi rolls with fresh fish, rice, and vegetables",
+        "price": 1899,
+        "image": "https://www.google.com/imgres?q=sushi%20rolls%20with%20pictures&imgurl=https%3A%2F%2Fwww.yummyhealthyeasy.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fcalifornia-sushi-rolls-square.jpg&imgrefurl=https%3A%2F%2Fwww.yummyhealthyeasy.com%2Fcalifornia-sushi-rolls%2F&docid=319oC9fAxGSl8M&tbnid=SdGYfLKtyS2rLM&vet=12ahUKEwjG7oPU1PuFAxVVBNsEHQFjDrQQM3oECBYQAA..i&w=700&h=700&hcb=2&ved=2ahUKEwjG7oPU1PuFAxVVBNsEHQFjDrQQM3oECBYQAA",
+        "category": "Japanese",
+        "ingredients": ["Fresh Fish", "Rice", "Vegetables"],
         "availability": true
       }
 
