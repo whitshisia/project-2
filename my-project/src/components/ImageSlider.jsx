@@ -9,7 +9,7 @@ const ImageSlider = ({ images }) => {
     if (images && images.length > 0) {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-      }, 3000); // Change image every 3 seconds
+      }, 3000); 
       return () => clearInterval(interval);
     }
   }, [images]);
@@ -19,11 +19,11 @@ const ImageSlider = ({ images }) => {
   };
 
   return (
-    <div style={{ position: 'relative', overflow: 'hidden', width: '100%', height: '300px' }}>
+    <div  style={{ position: 'relative', overflow: 'hidden', width: '100vw', height: '800px' }}>
       <div style={{ display: 'flex', transition: 'transform 0.5s', transform: `translateX(-${currentIndex * 100}%)` }}>
         {images && images.length > 0 &&
           images.map((image, index) => (
-            <img key={index} src={image} alt={`image-${index}`} style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+            <img key={index} src={image} alt={`image-${index}`}  style={{ width: '130%', height: '600px' }} />
           ))}
       </div>
 

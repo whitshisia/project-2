@@ -5,7 +5,7 @@
         "name": "Italian Pizza",
         "description": "Classic pizza with tomato sauce, mozzarella, and basil",
         "price": 1299,
-        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fst3.idealista.it%2Fnews%2Farchivie%2Fstyles%2Ffullwidth_xl%2Fpublic%2F2022-10%2Fmedia%2Fimage%2Faurelien-lemasson-theobald-x00czbt4dfk-unsplash.jpg%3FVersionId%3DV5HNX7jAzvpmOwawvIKLGNATTI3v_m09%26itok%3DKeH-F7_2&tbnid=Vur4bO143m2ckM&vet=12ahUKEwj5oOrgwvuFAxWAmicCHRX8Da4QMygDegQIARB6..i&imgrefurl=https%3A%2F%2Fwww.idealista.it%2Fen%2Fnews%2Flifestyle-italy%2F2024%2F02%2F23%2F2491-most-popular-authentic-italian-pizzas&docid=Esw3xMKpKJvOOM&w=1200&h=801&q=itallian%20pizza%20photo&ved=2ahUKEwj5oOrgwvuFAxWAmicCHRX8Da4QMygDegQIARB6",
+        "image": "https://www.shutterstock.com/image-photo/rock-climber-silhouetted-against-evening-sky-16534216",
         "category": "Pizza",
         "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Fresh Basil"],
         "availability": true
@@ -17,7 +17,7 @@
         "name": "Spaghetti Carbonara",
         "description": "Pasta with egg sauce, bacon, and italian cheese",
         "price": 14.99,
-        "image": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.cookingclassy.com%2Fwp-content%2Fuploads%2F2020%2F10%2Fspaghetti-carbonara-01.jpg&tbnid=qTM2S7Ihmp22xM&vet=12ahUKEwiGtfbMwvuFAxWyd6QEHTqaBRkQMygBegQIARBM..i&imgrefurl=https%3A%2F%2Fwww.cookingclassy.com%2Fpasta-carbonara%2F&docid=ZNAl0UyctJ-4AM&w=1200&h=1800&q=cooked%20spaghetti%20carbonara%20photo&ved=2ahUKEwiGtfbMwvuFAxWyd6QEHTqaBRkQMygBegQIARBM",
+        "image": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.cookingclassy.com%2Fwp-content%2Fuploads%2F2020%2F10%2Fspaghetti-carbonara-01.jpg&tbnid=qTM2S7Ihmp22xM&vet=12ahUKEwiGtfbMwvuFAxWyd6QEHTqaBRkQMygBegQIARBM..i&imgrefurl=https%3A%2F%2Fwww.cookingclassy.com%2Fpasta-carbonara%2F&docid=ZNAl0UyctJ-4AM&w=1200&h=1800&q=cooked%20spaghetti%20carbonara%20photo&ved=2ahUKEwiGtfbMwvuFAxWyd6QEHTqaBRkQMygBegQIARBM.jpg",
         "category": "Pasta",
         "ingredients": ["Spaghetti", "Eggs", "Bacon", "Cheese"],
         "availability" :true
@@ -29,7 +29,7 @@
         "name": "Classic Cheeseburger",
         "description": "Beef patty with cheese, lettuce, tomato, and special sauce",
         "price": 999,
-        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Frhubarbandcod.com%2Fwp-content%2Fuploads%2F2022%2F06%2FThe-Classic-Cheeseburger-1.jpg&tbnid=SVVwYfLrFEnelM&vet=12ahUKEwiCodiKw_uFAxVOsycCHTvHBVQQMygAegQIARBV..i&imgrefurl=https%3A%2F%2Frhubarbandcod.com%2Fthe-classic-cheeseburger%2F&docid=C7v0fBLpsRJdPM&w=1500&h=1071&q=classic%20cheese%20burger%20photo%20&ved=2ahUKEwiCodiKw_uFAxVOsycCHTvHBVQQMygAegQIARBV",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Frhubarbandcod.com%2Fwp-content%2Fuploads%2F2022%2F06%2FThe-Classic-Cheeseburger-1.jpg&tbnid=SVVwYfLrFEnelM&vet=12ahUKEwiCodiKw_uFAxVOsycCHTvHBVQQMygAegQIARBV..i&imgrefurl=https%3A%2F%2Frhubarbandcod.com%2Fthe-classic-cheeseburger%2F&docid=C7v0fBLpsRJdPM&w=1500&h=1071&q=classic%20cheese%20burger%20photo%20&ved=2ahUKEwiCodiKw_uFAxVOsycCHTvHBVQQMygAegQIARBV.jpg",
         "category": "Burger",
         "ingredients": ["Beef Patty", "Cheddar Cheese", "Lettuce", "Tomato", "Special Sauce"],
         "availability" :false
@@ -204,41 +204,28 @@
       }
 
     ],
-    "users": [
-      {
-        "id": 1,
-        "name": "sandie",
-        "email": "sandie@.com",
-        "password": ".......",
-        "address": "…..",
-        "phone": "…..",
-        "paymentMethods": ["Credit Card", "PayPal"],
-        "myOrders": []
-      },
-      {
-        "id": 2,
-        "name": "scarlet",
-        "email": "…….",
-        "password": "……",
-        "address": "……",
-        "phone": "…….",
-        "paymentMethods": ["Credit Card"],
-        "myOrders": [
-          {
-            "orderId": 1,
-            "items": [
-              {
-                "foodId": 101,
+    "myOrders": [
+             {
+                "orderId": 1,
                 "foodName": "Margherita Pizza",
                 "quantity": 2,
-                "price": 25.98
-              }
-            ],
-            "total": 25,
-            "status": "Delivered",
-            "date": "2024-05-07T10:30:00Z"
-          }
-        ]
-      }
+                "price": 25.98,
+                "status": "Delivered",
+                "date": "2024-05-07T10:30:00Z"
+              },
+             {"orderId": 2,
+                "foodName": "Pork",
+                "quantity": 6,
+                "price": 25.98,
+                "status": "Delivered",
+                "date": "2024-05-07T10:30:00Z"
+              },
+              {"orderId": 3,
+              "foodName": "drinks",
+              "quantity": 30,
+              "price": 200,
+              "status": "Delivered",
+              "date": "2024-05-07T10:30:00Z"}
     ]
-  }
+          }
+        
