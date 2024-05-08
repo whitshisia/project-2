@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 function MyOrders() {
   const [myOrders, setMyOrders] = useState([]);
 
@@ -40,8 +39,12 @@ function MyOrders() {
           <p>{myOrder.price}</p>
           <p>{myOrder.status}</p>
           <p>{myOrder.date}</p>
-          <button onClick={() => handleDeleteOrder(myOrder.orderId)}>Delete</button>
-          <button onClick={() => handleUpdateOrder(myOrder.orderId, { ...myOrder, status: 'Updated' })}>Update</button>
+          <button 
+          className="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
+          onClick={() => handleDeleteOrder(myOrder.orderId)}>Delete</button>
+          <button 
+          className="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
+          onClick={() => handleUpdateOrder(myOrder.orderId, { ...myOrder, status: 'Updated' })}>Update</button>
         </div>
       ))}
     </div>
