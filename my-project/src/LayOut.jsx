@@ -12,9 +12,7 @@ const NavBar = () => {
     <nav className="bg-green border-green-200 dark:bg-green-900 dark:border-green-700">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-green">Quartet-s 
-          <br></br>
-          Delivery</span>
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-green">Quartet-s Delivery</span>
         </Link>
         <div className={`md:flex ${dropdownOpen ? 'flex' : 'hidden'}`} id="navbar-dropdown">
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
@@ -78,47 +76,38 @@ const Layout = () => {
                 Return Store Policy
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6">
               <div>
-                <h2>ADRESSS</h2>
-                <br></br>
-                <br></br>
-                <br></br>
+                <h2>ADDRESS</h2>
                 <p>
                   2nd Floor, Imaara Mall,
-                  <br></br>
+                  <br/>
                   Mombasa Road
                 </p>
               </div>
               <div>
                 <h2>OPENING HOURS</h2>
-                <br></br>
-                <br></br>
-                <br></br>
                 <p>
                   Mon - Fri: 7am - 10pm
-                  <br></br>
+                  <br/>
                   Saturday: 8am - 10pm
-                  <br></br>
+                  <br/>
                   Sunday: 8am - 11pm
                 </p>
               </div>
               <div>
                 <h1>AT YOUR DOORSTEP</h1>
-                <br></br>
                 <form className="max-w-sm mx-auto"> 
                   <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">*Email</label>
                   <input type="email" id="email" aria-describedby="helper-text-explanation" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></input>
                 </form>
-                <br></br>
                 <button type="button" className="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-green-700 dark:focus:ring-blue-800">
                   SUBSCRIPTION
                 </button>
               </div>
             </div>
           </div>
-          <br></br>
-          <div className="sm:flex sm:items-center sm:justify-between">
+          <div className="sm:flex sm:items-center sm:justify-between mt-4">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" className="hover:underline">Quartet-s Delivery™</a>. All Rights Reserved.</span>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="https://www.facebook.com/profile.php?id=100085220929150&mibextid=LQQJ4d" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">

@@ -14,7 +14,7 @@ function MyOrders() {
   }, []);
 
   const handleDeleteOrder = (orderId) => {
-    fetch(`http://localhost:3000/myOrders/${orderId}`, {
+    fetch(`http://localhost:3000/myOrders${orderId}`, {
       method: 'DELETE'
     })
     .then(() => {
@@ -45,7 +45,7 @@ function MyOrders() {
     .then(response => {
       if (response.ok) {
         toast.success('Order successfully updated');
-        setEditMode(null); 
+        setEditMode(null);
         setEditedOrder({});
       } else {
         toast.error('Error updating order');
@@ -56,7 +56,7 @@ function MyOrders() {
       toast.error('Error updating order');
     });
   };
-
+  
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setEditedOrder(prevState => ({
