@@ -12,7 +12,8 @@
         "Mozzarella Cheese",
         "Fresh Basil"
       ],
-      "availability": true
+      "availability": true,
+      " comments":"amaizing "
     },
     {
       "id": 102,
@@ -27,7 +28,8 @@
         "Bacon",
         "Cheese"
       ],
-      "availability": true
+      "availability": true,
+      " comments":"not good "
     },
     {
       "id": 201,
@@ -43,7 +45,8 @@
         "Tomato",
         "Special Sauce"
       ],
-      "availability": false
+      "availability": false,
+      " comments":"not good "
     },
     {
       "id": 202,
@@ -57,7 +60,8 @@
         "Avocado",
         "Sprouts"
       ],
-      "availability": true
+      "availability": true,
+      " comments":"good "
     },
     {
       "id": 301,
@@ -72,7 +76,8 @@
         "Potatoes",
         "Onions"
       ],
-      "availability": true
+      "availability": true,
+      " comments":"tasty "
     },
     {
       "id": 401,
@@ -85,7 +90,8 @@
         "Pork Ribs",
         "BBQ Sauce"
       ],
-      "availability": true
+      "availability": true,
+      " comments":"yummy "
     },
     {
       "id": 302,
@@ -99,7 +105,8 @@
         "Herbs",
         "Seasonings"
       ],
-      "availability": true
+      "availability": true,
+      " comments":"not good "
     },
     {
       "id": 304,
@@ -113,7 +120,8 @@
         "Curry Spices",
         "Vegetables"
       ],
-      "availability": true
+      "availability": true,
+      " comments":" good "
     },
     {
       "id": 501,
@@ -122,7 +130,8 @@
       "price": 2.99,
       "image": "https://shop.phoenixbev.mu/wp-content/uploads/1040-1.jpg",
       "category": "Soft Drink",
-      "availability": true
+      "availability": true,
+      " comments":"good "
     },
     {
       "id": 502,
@@ -131,7 +140,8 @@
       "price": 3.49,
       "image": "https://www.creedfoodservice.co.uk/media/catalog/product/cache/d781aa45b0623b3b1e7a18c482a05dd6/f/c/fcd3e1e08fe131416ea15e8d41ece0b1.jpg",
       "category": "Juice",
-      "availability": true
+      "availability": true,
+      " comments":"magnificent "
     },
     {
       "id": 503,
@@ -140,7 +150,8 @@
       "price": 2.49,
       "image": "https://static.vecteezy.com/system/resources/thumbnails/025/282/026/small_2x/stock-of-mix-a-cup-coffee-latte-more-motive-top-view-foodgraphy-generative-ai-photo.jpg",
       "category": "Hot Drink",
-      "availability": true
+      "availability": true,
+      " comments":"excellent "
     },
     {
       "id": 504,
@@ -149,7 +160,8 @@
       "price": 1.49,
       "image": "https://images.thdstatic.com/productImages/2c12c804-7728-4112-9a79-d3dbb0c33548/svn/dasani-water-049000026566-64_600.jpg",
       "category": "Non-Alcoholic",
-      "availability": true
+      "availability": true,
+      " comments":"not bad "
     },
     {
       "id": 505,
@@ -158,7 +170,8 @@
       "price": 1.99,
       "image": "https://www.fodors.com/wp-content/uploads/2019/03/HERO_Worlds_Best_Soda_Bundaberg_shutterstock_679079920.jpg",
       "category": "Soft Drink",
-      "availability": true
+      "availability": true,
+      " comments":"ver good "
     },
     {
       "id": 506,
@@ -167,7 +180,8 @@
       "price": 3.99,
       "image": "https://saltandbaker.com/wp-content/uploads/2020/12/oreo-milkshake-recipe.jpg",
       "category": "Dessert",
-      "availability": true
+      "availability": true,
+      " comments":" good "
     }
   ],
   "myOrders": [

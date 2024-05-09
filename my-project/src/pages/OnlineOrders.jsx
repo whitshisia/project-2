@@ -6,11 +6,19 @@ const Foods = () => {
   const [foods, setFoods] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
+  const [comments, setComments] = useState({}); 
 
   useEffect(() => {
-    fetch('http://localhost:3000/foods') // Assuming json-server is running on localhost:3000
+    fetch('http://localhost:3000/foods')
       .then(response => response.json())
-      .then(data => setFoods(data));
+      .then(data => {
+        setFoods(data);
+        const initialComments = {};
+        data.forEach(food => {
+          initialComments[food.id] = [];
+        });
+        setComments(initialComments);
+      });
   }, []);
 
   const handlePageChange = (page) => {
@@ -22,13 +30,12 @@ const Foods = () => {
   };
 
   const handleOrderNow = (food) => {
-    // Assuming orderId is generated automatically, and other fields are taken from food object
     const newOrder = {
-      orderId: Math.random().toString(36).substr(2, 9), // Generate unique ID
+      orderId: Math.random().toString(36).substr(2, 9),
       foodName: food.name,
       price: food.price,
-      status: 'Pending', // Set initial status
-      date: new Date().toLocaleDateString() // Current date
+      status: 'Pending',
+      date: new Date().toLocaleDateString()
     };
     fetch('http://localhost:3000/myOrders', {
       method: 'POST',
@@ -37,11 +44,29 @@ const Foods = () => {
       },
       body: JSON.stringify(newOrder),
     })
-    .then(response => response.json())
-    .then(data => console.log('Order added:', data));
+      .then(response => response.json())
+      .then(data => console.log('Order added:', data));
   };
 
-  // Calculate pagination bounds
+  const handleCommentSubmit = (foodId, comment) => {
+    const newComment = {
+      id: Math.random().toString(36).substr(2, 9),
+      content: comment,
+      date: new Date().toLocaleDateString(),
+    };
+    setComments(prevComments => ({
+      ...prevComments,
+      [foodId]: [...prevComments[foodId], newComment],
+    }));
+  };
+
+  const handleDeleteComment = (foodId, commentId) => {
+    setComments(prevComments => ({
+      ...prevComments,
+      [foodId]: prevComments[foodId].filter(comment => comment.id !== commentId),
+    }));
+  };
+
   const itemsPerPage = 4;
   const filteredFoods = foods.filter(food =>
     food.category.toLowerCase().includes(searchQuery.toLowerCase())
@@ -66,6 +91,19 @@ const Foods = () => {
             <img src={food.image} alt={food.name} className="w-full mb-2" />
             <h2 className="text-xl font-bold">{food.name}</h2>
             <p>{food.description}</p>
+            <p>${food.price}</p>
+            <p>ingredients:{food.ingredients}</p>
+            <div>
+              {comments[food.id].map(comment => (
+                <div key={comment.id}>
+                  <p>{comment.content}</p>
+                  <p>{comment.date}</p>
+                  <button onClick={() => handleDeleteComment(food.id, comment.id)}>Delete</button>
+                </div>
+              ))}
+              <input type="text" placeholder="Add a comment..." />
+              <button onClick={() => handleCommentSubmit(food.id, "New comment")} className="bg-blue-500 text-white px-4 py-2 rounded mt-2">Add Comment</button>
+            </div>
             <button onClick={() => handleOrderNow(food)} className="bg-blue-500 text-white px-4 py-2 rounded mt-2">Order Now</button>
           </div>
         ))}
