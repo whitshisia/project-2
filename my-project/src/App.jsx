@@ -7,7 +7,7 @@ import MyOrders from "./pages/MyOrders";
 import NoPage from "./pages/NoPage";
 import About from "./pages/About";
 import Menu from "./pages/Menu";
-import More from "./pages/More";
+// import More from "./pages/More";
 import OnlineOrders from "./pages/OnlineOrders";
 // import MyComponent from "./components/MyComponent";
 
@@ -24,7 +24,7 @@ function App() {
       <Route path="*" element={<NoPage />} /></Route>
       <Route path='/about' element={<About />} />
       <Route path='/menu' element={<Menu />} />
-      <Route path='/more' element={<More />} />
+      {/* <Route path='/more' element={<More />} /> */}
       <Route path='/onlineorders' element={<OnlineOrders />} />
       {/* <Route path='/mycomponent' element={<MyComponent />} /> */}
     </Routes>

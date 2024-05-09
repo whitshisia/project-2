@@ -6,7 +6,7 @@ const Menu = () => {
   useEffect(() => {
     const fetchMenuItems = async () => {
       try {
-        const response = await fetch('http://localhost:3000/menu'); // Change the URL as per your local JSON server setup
+        const response = await fetch('http://localhost:3000/menu');
         if (!response.ok) {
           throw new Error('Failed to fetch menu items');
         }
